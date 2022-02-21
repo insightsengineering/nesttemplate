@@ -1,16 +1,16 @@
-## Overview
+# Overview
 
 nesttemplate provides a custom [`pkgdown`](https://pkgdown.r-lib.org) template for NEST packages.
 Please don’t use it for your own package.
 
-## Templates
+# Templates
 
 Please ensure that the `_pkgdown.yml` file contains:
 
     template:
         package: nesttemplate
 
-## Example sites
+# Example sites
 
 - [`tern`](https://insightsengineering.github.io/tern/)
 
