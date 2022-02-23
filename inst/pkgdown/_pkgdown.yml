@@ -5,6 +5,6 @@ template:
     before_navbar: >
       <div style = "width: 140px; margin-left: 0.5rem;">
       <small class="nav-text text-muted me-auto">part of</small>
-      <a href="TODO"><img src="nest.png" alt="NEST" style="height: 30px;"></a>
-      <a href="https://pharmaverse.org/"><img src="pharmaverse.png" alt="pharmaverse" style="height: 30px;"></a>
+      <img src="https://github.com/insightsengineering/hex-stickers/blob/main/PNG/nest.png?raw=true" alt="NEST" style="height: 30px;">
+      <a href="https://pharmaverse.org/"><img src="https://github.com/insightsengineering/hex-stickers/blob/main/PNG/pharmaverse.png?raw=true" alt="pharmaverse" style="height: 30px;"></a>
       </div>
