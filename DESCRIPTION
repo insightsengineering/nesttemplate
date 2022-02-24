@@ -1,11 +1,10 @@
 Package: nesttemplate
 Title: `pkgdown` template for NEST packages
-Version: 0.0.0.9000
-Authors@R: c(
+Version: 0.0.0.9001
+Authors@R: 
     person("NEST", , , "basel.nestcicd@roche.com", role = c("aut", "cre"))
-  )
-Description: This is a private template for use by core NEST
-    packages. Please don't use for your own code.
+Description: This is a private template for use by core NEST packages.
+    Please don't use for your own code.
 License: MIT + file LICENSE
 URL: https://github.com/insightsengineering/nesttemplate,
     https://insightsengineering.github.io/nesttemplate/
