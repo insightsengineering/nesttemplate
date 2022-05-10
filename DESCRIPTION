@@ -1,18 +1,18 @@
 Package: nesttemplate
 Title: `pkgdown` template for NEST packages
 Version: 0.0.0.9001
-Authors@R: 
+Authors@R:
     person("NEST", , , "basel.nestcicd@roche.com", role = c("aut", "cre"))
 Description: This is a private template for use by core NEST packages.
     Please don't use for your own code.
-License: MIT + file LICENSE
+License: Apache License 2.0 | file LICENSE
 URL: https://github.com/insightsengineering/nesttemplate,
     https://insightsengineering.github.io/nesttemplate/
 BugReports: https://github.com/insightsengineering/nesttemplate/issues
-Suggests: 
+Suggests:
     knitr,
     rmarkdown
-VignetteBuilder: 
+VignetteBuilder:
     knitr
 Encoding: UTF-8
 LazyData: true
