@@ -1,8 +1,8 @@
 pandoc: 2.17.1.1
-pkgdown: 2.0.2
+pkgdown: 2.0.3
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-03-03T20:58Z
+last_built: 2022-05-10T10:52Z
 urls:
   reference: https://insightsengineering.github.io/nesttemplate/reference
   article: https://insightsengineering.github.io/nesttemplate/articles
