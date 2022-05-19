@@ -1,8 +1,10 @@
 Package: nesttemplate
 Title: `pkgdown` template for NEST packages
 Version: 0.0.0.9001
-Authors@R:
-    person("NEST", , , "basel.nestcicd@roche.com", role = c("aut", "cre"))
+Authors@R: c(
+    person("Pawel", "Rucki", , "pawel.rucki@roche.com", role = c("aut", "cre")),
+    person("F. Hoffmann-La Roche AG", role = c("cph", "fnd"))
+  )
 Description: This is a private template for use by core NEST packages.
     Please don't use for your own code.
 License: Apache License 2.0 | file LICENSE

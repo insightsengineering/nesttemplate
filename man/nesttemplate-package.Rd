@@ -19,7 +19,12 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: NEST \email{basel.nestcicd@roche.com}
+\strong{Maintainer}: Pawel Rucki \email{pawel.rucki@roche.com}
+
+Other contributors:
+\itemize{
+  \item F. Hoffmann-La Roche AG [copyright holder, funder]
+}
 
 }
 \keyword{internal}
