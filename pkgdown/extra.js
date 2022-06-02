@@ -1,0 +1,1 @@
+../inst/pkgdown/assets/consent.js
