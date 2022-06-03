@@ -1,3 +1,3 @@
-# nesttemplate 0.0.0.9005
+# nesttemplate 0.0.0.9006
 
 * Initialize the package.
