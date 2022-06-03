@@ -1,6 +1,6 @@
 Package: nesttemplate
 Title: `pkgdown` template for NEST packages
-Version: 0.0.0.9004
+Version: 0.0.0.9005
 Authors@R: c(
     person("Pawel", "Rucki", , "pawel.rucki@roche.com", role = c("aut", "cre")),
     person("F. Hoffmann-La Roche AG", role = c("cph", "fnd"))
@@ -11,12 +11,12 @@ License: Apache License 2.0 | file LICENSE
 URL: https://github.com/insightsengineering/nesttemplate,
     https://insightsengineering.github.io/nesttemplate/
 BugReports: https://github.com/insightsengineering/nesttemplate/issues
-Config/Needs/website: insightsengineering/nesttemplate
 Suggests:
     knitr,
     rmarkdown
 VignetteBuilder:
     knitr
+Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
