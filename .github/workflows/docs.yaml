@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - inst/templates/**
+      - inst/**
       - _pkgdown.yml
       - DESCRIPTION
       - '**.md'
@@ -18,7 +18,7 @@ on:
       - main
       - pre-release
     paths:
-      - inst/templates/**
+      - inst/**
       - _pkgdown.yml
       - DESCRIPTION
       - '**.md'
