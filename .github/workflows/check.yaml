@@ -19,3 +19,9 @@ jobs:
     if: github.event_name == 'pull_request'
     name: SuperLinter 🦸‍♀️
     uses: insightsengineering/r.pkg.template/.github/workflows/linter.yaml@main
+  vbump:
+    name: Version Bump 🤜🤛
+    if: github.event_name == 'push'
+    uses: insightsengineering/r.pkg.template/.github/workflows/version-bump.yaml@main
+    secrets:
+      REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
