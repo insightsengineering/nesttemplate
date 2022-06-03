@@ -9,4 +9,4 @@ template:
       <a href="https://pharmaverse.org/"><img src="https://github.com/insightsengineering/hex-stickers/blob/main/PNG/pharmaverse.png?raw=true" alt="pharmaverse" style="height: 28px;"></a>
       </div>
     after_body: >
-      <script>$(document).cookieWall({id:'UA-125641273-1'});</script>
+      <script>$('body').cookieWall({id:'UA-125641273-1'});</script>

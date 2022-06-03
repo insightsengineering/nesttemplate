@@ -13,12 +13,11 @@
                 cookieDomain: '',
                 cookieExpires: '',
                 cookieUpdate: ''
-            },
-            lang: 'en'
+            }
         }, options);
         const tag_params = {}
         for (const property in params.tag) {
-            if (params.tag[property] !== '') {
+            if (params.tag[property] != '') {
                 tag_params[property.replace(/([A-Z])/g, "-$1").toLowerCase()] = params.tag[property];
             }
         }
@@ -30,20 +29,16 @@
             'gtag(\'config\', \'' + params.id + '\', ' + JSON.stringify(tag_params).replace(/"/g, '\'') + ');' +
             '</script>';
 
-        const cookieNotification = '' +
-            '<div class="cookie-consent">' +
-            '<span>This site uses cookies to enhance user experience. Please see <a href="cookie_policy.txt" class="ml-1 text-decoration-none">Privacy policy</a> </span>' +
-            '<div class="mt-2 d-flex align-items-center justify-content-center g-2">' +
-            '<button class="cookie-button" id="cookie_accept">Accept</button>' +
-            '<button class="cookie-button" id="cookie_deny">No thanks</button>' +
-            '</div>' +
-            '</div>' +
-            '<style>' +
-            '.cookie-consent{ position: fixed; bottom: 8px; left: 20px; width: 260px; color: #fff; line-height: 20px; padding-block: 7px; padding-left: 10px; padding-right: 10px; font-size: 14px; background: #292929; z-index: 120; cursor: pointer; border-radius: 3px; }' +
-            '.cookie-button{ height: 20px; width: 104px; color: #fff; font-size: 12px; line-height: 10px; border-radius: 3px; border: 1px solid green; background-color: green; margin-inline: auto; }' +
-            '</style>' +
-            '';
-        let h;
+        const cookieNotification = `
+        <div class="cookie-consent">
+            <span>This site uses cookies to enhance user experience. Please see <a href="cookie_policy.txt"
+                class="ml-1 text-decoration-none">Privacy policy</a> </span>
+            <div class="mt-2 d-flex align-items-center justify-content-center g-2">
+                <button class="cookie-button" id="cookie_accept">Accept</button>
+                <button class="cookie-button" id="cookie_deny">No thanks</button>
+            </div>
+        </div>`;
+
         function init() {
             if (params.id != '') {
                 let c = getCookie();
@@ -56,14 +51,17 @@
                 console.log('No ID defined in the cookieWall params.');
             }
         }
+
         function displayCookieNotification() {
             $('body').prepend(cookieNotification);
-            $('body').on('mousedown', '.cookie-consent .cookie-button', setChoise);
+            $('body').on('mousedown', '.cookie-consent .cookie-button', setChoice);
         }
+
         function removeCookieNotification() {
             $('body .cookie-consent').remove();
         }
-        function setChoise(e) {
+
+        function setChoice(e) {
             e.preventDefault();
             if ($(this).id == 'cookie_accept') {
                 setCookie(1);
@@ -73,9 +71,11 @@
             }
             removeCookieNotification();
         }
+
         function addTag() {
             $('body').append(tag);
         }
+
         function getCookie() {
             let t = document.cookie.split('; ');
             let f = t.find(row => row.startsWith(params.cookie.name + '='));
@@ -84,12 +84,10 @@
             }
             return null;
         }
+
         function setCookie(value) {
             let a = params.cookie.days * 86400;
             document.cookie = params.cookie.name + '=' + value + ';max-age=' + a + ';path=' + params.cookie.path + ';SameSite=None;Secure';
-        }
-        function removeCookie() {
-            document.cookie = params.cookie.name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT;SameSite=None;Secure'
         }
         init();
         return this;
