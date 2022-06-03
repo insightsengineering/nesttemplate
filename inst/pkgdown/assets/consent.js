@@ -31,8 +31,8 @@
 
         const cookieNotification = `
         <div class="cookie-consent">
-            <span>This site uses cookies to enhance user experience. Please see <a href="cookie_policy.txt"
-                class="ml-1 text-decoration-none">Privacy policy</a> </span>
+            <span>This site uses cookies to enhance user experience. Please see the <a href="cookie_policy.txt"
+                class="ml-1 text-decoration-none">privacy policy</a> for more info.</span>
             <div class="mt-2 d-flex align-items-center justify-content-center g-2">
                 <button class="cookie-button" id="cookie_accept">Accept</button>
                 <button class="cookie-button" id="cookie_deny">No thanks</button>
