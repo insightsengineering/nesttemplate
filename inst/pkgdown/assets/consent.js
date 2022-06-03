@@ -63,7 +63,7 @@
 
         function setChoice(e) {
             e.preventDefault();
-            if ($(this).id == 'cookie_accept') {
+            if (this.id == 'cookie_accept') {
                 setCookie(1);
                 addTag();
             } else {
