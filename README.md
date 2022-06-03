@@ -11,5 +11,7 @@ In order to take full advantage of that template you would need to use `pkgdown`
 
 Please ensure that the `_pkgdown.yml` file contains:
 
-    template:
-        package: nesttemplate
+```yaml
+template:
+    package: nesttemplate
+```

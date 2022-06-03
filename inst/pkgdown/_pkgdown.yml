@@ -8,5 +8,3 @@ template:
       <img src="https://github.com/insightsengineering/hex-stickers/blob/main/PNG/nest.png?raw=true" alt="NEST" style="height: 30px;">
       <a href="https://pharmaverse.org/"><img src="https://github.com/insightsengineering/hex-stickers/blob/main/PNG/pharmaverse.png?raw=true" alt="pharmaverse" style="height: 28px;"></a>
       </div>
-    after_body: >
-      <script type="text/javascript" src="analytics.js"></script>

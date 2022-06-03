@@ -1,1 +1,1 @@
-$('body').cookieWall({id:'UA-125641273-1'});
+$(document).cookieWall({id:'UA-125641273-1'});

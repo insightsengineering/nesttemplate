@@ -35,7 +35,7 @@
                 class="ml-1 text-decoration-none">privacy policy</a> for more info.</span>
             <div class="mt-2 d-flex align-items-center justify-content-center g-2">
                 <button class="cookie-button" id="cookie_accept">Accept</button>
-                <button class="cookie-button" id="cookie_deny">No thanks</button>
+                <button class="cookie-button" id="cookie_deny">Dismiss</button>
             </div>
         </div>`;
 
