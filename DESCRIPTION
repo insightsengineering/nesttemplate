@@ -14,8 +14,6 @@ BugReports: https://github.com/insightsengineering/nesttemplate/issues
 Suggests:
     knitr,
     rmarkdown
-VignetteBuilder:
-    knitr
 Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
 Language: en-US
