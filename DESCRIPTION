@@ -1,5 +1,5 @@
 Package: nesttemplate
-Title: `pkgdown` template for NEST packages
+Title: `pkgdown` Template for NEST Packages
 Version: 0.0.0.9008
 Authors@R: c(
     person("Pawel", "Rucki", , "pawel.rucki@roche.com", role = c("aut", "cre")),
@@ -14,8 +14,6 @@ BugReports: https://github.com/insightsengineering/nesttemplate/issues
 Suggests:
     knitr,
     rmarkdown
-VignetteBuilder:
-    knitr
 Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
 Language: en-US
